@@ -1,0 +1,46 @@
+
+body{
+    background: linear-gradient(to right, rgb(182, 73, 165), rgb(78, 78, 213), rgb(92, 172, 218));
+}
+h1{
+    text-align: center;
+    color:aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+form{
+    width:30% ;
+    background-color: aliceblue;
+    margin:34px auto;
+    padding:30px;
+    border-radius: 5px;
+}
+input, select{
+    width:90%;
+    margin: 3px 0px 12px;
+    padding: 5px;
+    border-radius: 5px;
+}
+button{
+ margin:5% 20%;
+ padding:3% 20%;
+ border-radius:50px;
+ background:linear-gradient(to right, rgb(202, 24, 176), rgb(53, 160, 222));
+ color: white;
+font-size: 16px;
+}
+.error{
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+}
+@media screen and (max-width:1300px) {
+    img{
+        width: 50px;
+        margin: -5% auto auto 30%;
+    }
+    button{
+    /* font-size: 13px; */
+    padding: 3% 10%;
+    margin: 2%;
+    }
+}

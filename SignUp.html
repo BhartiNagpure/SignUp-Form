@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Form</title>
+    <link rel="stylesheet" href="SignUp.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SignUp Here....</h1>
+        <form action="#" onsubmit="return validation()">
+            <div>
+                <label for="name">Name :</label><br>
+                <input type="text" id="name" placeholder="Name"/>
+                <div class="error" id="username" ></div>
+            </div>
+            <div>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" placeholder="Email"/>
+                <div class="error" id="useremail"></div>
+            </div>
+            <div>
+                <label for="password">Password :</label><br>
+                <input type="password" id="password" placeholder="Password"/>
+                <div class="error" id="userpass"></div>
+            </div>
+            <div>
+                <label for="conpass">Confirm Password :</label><br>
+                <input type="password" id="conpass" placeholder="Password"/>
+                <div class="error" id="userconpass"></div>
+            </div>           
+             <div>
+                <label for="mobile">Mobile :</label><br>
+                <input type="number" id="mobile" placeholder="Number"/>
+                <div class="error" id="usermobile"></div>
+            </div>
+            <div>
+                <label for="year">Year :</label>
+            <select>
+                <option>1st year</option>
+                <option>2nd year</option>
+                <option>3rd year</option>
+                <option>4th year</option>
+            </select>
+            </div>
+            <button onclick="alert('Form submit successfully !')">SIGN UP</button>
+        </form>
+    </div>
+</body>
+<script src="SignUp.js"></script>
+</html>
